@@ -1,0 +1,18 @@
+:root {
+  --dooOrange: #FF9800;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  background-color: var(--dooOrange);
+  color: #FAFAFA;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: none;
+  margin: none;
+  overflow-x: hidden;
+}
